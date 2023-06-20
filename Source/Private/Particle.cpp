@@ -1,5 +1,5 @@
 #include <stdlib.h>
-#include "Particle.h"
+#include "../Public/Particle.h"
 
 namespace Flux {
 

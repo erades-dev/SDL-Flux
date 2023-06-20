@@ -141,18 +141,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="Particle.cpp" />
-    <ClCompile Include="System.cpp" />
-    <ClCompile Include="Screen.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Particle.h" />
-    <ClInclude Include="System.h" />
-    <ClInclude Include="Screen.h" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include=".clang-format" />
+    <None Include=".gitignore" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Private\main.cpp" />
+    <ClCompile Include="Source\Private\Particle.cpp" />
+    <ClCompile Include="Source\Private\Screen.cpp" />
+    <ClCompile Include="Source\Private\System.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Public\Particle.h" />
+    <ClInclude Include="Source\Public\Screen.h" />
+    <ClInclude Include="Source\Public\System.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

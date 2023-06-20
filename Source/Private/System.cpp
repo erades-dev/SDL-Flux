@@ -1,5 +1,5 @@
-#include "System.h"
-// #include "Particle.h"
+#include "../Public/System.h"
+// #include "../Public/Particle.h"
 
 namespace Flux {
 

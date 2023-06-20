@@ -1,4 +1,4 @@
-#include "Screen.h"
+#include "../Public/Screen.h"
 // #include <math.h>
 
 namespace Flux {

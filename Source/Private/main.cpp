@@ -1,5 +1,5 @@
-#include "Screen.h"
-#include "System.h"
+#include "../Public/Screen.h"
+#include "../Public/System.h"
 
 using namespace Flux;
 
