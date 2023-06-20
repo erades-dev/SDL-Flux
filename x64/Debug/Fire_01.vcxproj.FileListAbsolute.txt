@@ -1,2 +1,0 @@
-C:\Projects\C++\Fire_01\x64\Debug\Fire_01.exe
-C:\Projects\C++\SDL-Flux\x64\Debug\Fire_01.exe
